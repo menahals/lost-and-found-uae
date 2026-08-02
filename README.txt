@@ -106,11 +106,9 @@ mongodb://127.0.0.1:27017/lostAndFoundDB
 For cloud deployment, the MONGO_URL environment variable should contain
 the MongoDB Atlas/cloud database connection string.
 
-CLOUD SERVER LINK
------------------
-Direct cloud server link:
+CLOUD SERVER LINK:
 
-ADD FINAL DEPLOYED LINK HERE
+https://lost-and-found-uae.onrender.com
 ______________________________________________
 
 USAGE
@@ -135,56 +133,8 @@ USAGE
 
 6. Use the About Developers page to view information about the developers.
 
-SCREENSHOTS
------------
-Screenshot 1 - Home Page
-[Insert screenshot here]
 
-Screenshot 2 - Report Item Page
-[Insert screenshot here]
 
-Screenshot 3 - View Items Page
-[Insert screenshot here]
 
-Screenshot 4 - Contact Us Page
-[Insert screenshot here]
 
-Screenshot 5 - About Developers Page
-[Insert screenshot here]
 
-FUTURE IMPROVEMENTS
--------------------
-- Add user accounts and authentication.
-- Add image uploading for reported items.
-- Add email notifications when a matching item is found.
-- Add an advanced search and filtering system.
-- Add an administrator dashboard.
-- Improve item matching between lost and found reports.
-- Add additional security and access-control features.
-
-WORK DIVISION
--------------
-NAMRAH:
-- Home page
-- Report Item page
-- Contact Us page
-- View Items display
-- Form validation
-- AJAX GET and POST
-- Express GET and POST
-- MongoDB Create and Read
-
-MENAHAL:
-- About Developers page
-- Search, Update and Delete on View Items page
-- Edit form
-- AJAX PUT and DELETE
-- Express PUT and DELETE
-- MongoDB Update and Delete
-
-LICENSE
--------
-MIT License
-
-This project is submitted as part of the CSE 490 Web Programming course.
-No separate commercial license is intended.
