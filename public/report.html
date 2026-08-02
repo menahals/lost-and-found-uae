@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Item | Lost &amp; Found UAE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body class="home-page report-page">
+    <div class="uae-strip">Reuniting what matters across the UAE</div>
+    <header class="site-header home-header">
+        <section class="header-content brand-area">
+            <span class="brand-mark">LF</span>
+            <div>
+                <h1>Lost &amp; Found <span>UAE</span></h1>
+                <p>Every item. Every person. Every time.</p>
+            </div>
+        </section>
+        <nav>
+            <a href="index.html">Home</a>
+            <a class="active-link" href="report.html">Report Item</a>
+            <a href="items.html">View Items</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="about.html">About Developers</a>
+        </nav>
+        <a class="header-button" href="report.html">+ &nbsp; Report an Item</a>
+    </header>
+
+    <main>
+        <section class="page-heading report-heading">
+            <p class="page-label">HELP AN ITEM FIND ITS WAY HOME</p>
+            <h2>Report a Lost or Found <span>Item</span></h2>
+            <p>Help reunite lost belongings with their owners by completing the form below.</p>
+            <div class="heading-accent" aria-hidden="true">
+                <span class="line-green"></span>
+                <span class="line-black"></span>
+                <span class="line-red"></span>
+            </div>
+        </section>
+
+        <section class="report-layout">
+            <aside class="privacy-card">
+                <span class="privacy-icon">&#10003;</span>
+                <div>
+                    <h2>Your Privacy Matters</h2>
+                    <p>Your information is kept private and will only be used to help reunite items with their owners.</p>
+                </div>
+            </aside>
+
+            <section class="form-card report-form-card">
+                <form id="reportForm" novalidate>
+                <fieldset>
+                    <legend>Item Details</legend>
+
+                    <label for="itemName">Item Name</label>
+                    <input type="text" id="itemName" name="itemName" placeholder="Example: Black wallet">
+                    <span class="error-message" id="itemNameError"></span>
+
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" rows="4" placeholder="Describe the colour, brand or special features"></textarea>
+                    <span class="error-message" id="descriptionError"></span>
+
+                    <label for="category">Category</label>
+                    <select id="category" name="category">
+                        <option value="">Select a category</option>
+                    </select>
+                    <span class="error-message" id="categoryError"></span>
+
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="Where was it lost or found?">
+                    <span class="error-message" id="locationError"></span>
+
+                    <label for="status">Status</label>
+                    <select id="status" name="status">
+                        <option value="">Select status</option>
+                        <option value="Lost">Lost</option>
+                        <option value="Found">Found</option>
+                    </select>
+                    <span class="error-message" id="statusError"></span>
+
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date">
+                    <span class="error-message" id="dateError"></span>
+                </fieldset>
+
+                <fieldset class="contact-fieldset">
+                    <legend>Contact Details</legend>
+
+                    <label for="contactName">Contact Name</label>
+                    <input type="text" id="contactName" name="contactName" placeholder="Your name">
+                    <span class="error-message" id="contactNameError"></span>
+
+                    <label for="contactEmail">Contact Email</label>
+                    <input type="email" id="contactEmail" name="contactEmail" placeholder="name@example.com">
+                    <span class="error-message" id="contactEmailError"></span>
+                </fieldset>
+
+                <div class="report-actions">
+                    <button type="submit" class="report-submit">Submit Report</button>
+                    <button type="reset" class="plain-button report-clear">Clear Form</button>
+                </div>
+                <p id="reportResult" class="result-message"></p>
+                </form>
+            </section>
+
+        </section>
+    </main>
+
+    <footer class="home-footer">
+        <section class="footer-content">
+            <div class="footer-brand">
+                <h2>Lost &amp; Found <span>UAE</span></h2>
+                <p>Every item. Every person. Every time.</p>
+            </div>
+            <div class="footer-project">
+                <p>CSE 490 Web Programming Project</p>
+                <strong>Summer 2026</strong>
+            </div>
+            <div class="footer-developers">
+                <p>Developed by</p>
+                <strong>Syeda Namrah and Menahal</strong>
+            </div>
+        </section>
+    </footer>
+    <script src="js/report.js"></script>
+</body>
+</html>

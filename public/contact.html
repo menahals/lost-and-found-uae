@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Lost &amp; Found UAE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body class="home-page contact-page">
+    <div class="uae-strip">Reuniting what matters across the UAE</div>
+    <header class="site-header home-header">
+        <section class="header-content brand-area">
+            <span class="brand-mark">LF</span>
+            <div>
+                <h1>Lost &amp; Found <span>UAE</span></h1>
+                <p>Every item. Every person. Every time.</p>
+            </div>
+        </section>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="report.html">Report Item</a>
+            <a href="items.html">View Items</a>
+            <a class="active-link" href="contact.html">Contact Us</a>
+            <a href="about.html">About Developers</a>
+        </nav>
+        <a class="header-button" href="report.html">+ &nbsp; Report an Item</a>
+    </header>
+
+    <main>
+        <section class="page-heading contact-heading">
+            <p class="page-label">WE WOULD LOVE TO HEAR FROM YOU</p>
+            <h2>Contact <span>Us</span></h2>
+            <div class="heading-accent" aria-hidden="true">
+                <span class="line-green"></span>
+                <span class="contact-red-diamond"></span>
+                <span class="line-black"></span>
+            </div>
+            <p>Have a question, suggestion, or need assistance?<br>We're here to help.</p>
+        </section>
+
+        <section class="contact-layout">
+            <section class="form-card contact-form-card">
+                <div class="card-heading">
+                    <span class="circle-icon">&#9993;</span>
+                    <div>
+                        <h2>Send Us a Message</h2>
+                        <p>Fill out the form below and we'll get back to you.</p>
+                    </div>
+                </div>
+
+                <form id="contactForm" novalidate>
+                    <fieldset>
+                        <legend>Send a Message</legend>
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name">
+                        <span class="error-message" id="nameError"></span>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address">
+                        <span class="error-message" id="emailError"></span>
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Enter the subject">
+                        <span class="error-message" id="subjectError"></span>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Type your message here..."></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </fieldset>
+
+                    <button type="submit" class="contact-submit">Send Message</button>
+                    <p id="contactResult" class="result-message"></p>
+                </form>
+            </section>
+
+            <article class="contact-card">
+                <div class="card-heading">
+                    <span class="circle-icon">&#9742;</span>
+                    <div>
+                        <h2>Contact Information</h2>
+                        <p>Reach our support team using the details below.</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <span class="circle-icon">&#9993;</span>
+                    <div><strong>Email</strong><p>support@lostfounduae.com</p></div>
+                </div>
+                <div class="contact-detail">
+                    <span class="circle-icon">&#9742;</span>
+                    <div><strong>Phone</strong><p>+971 50 123 4567</p></div>
+                </div>
+                <div class="contact-detail">
+                    <span class="circle-icon">&#9679;</span>
+                    <div><strong>Location</strong><p>Abu Dhabi, UAE</p></div>
+                </div>
+                <div class="contact-detail">
+                    <span class="circle-icon">&#9201;</span>
+                    <div><strong>Support Hours</strong><p>Sunday – Thursday<br>9:00 AM – 6:00 PM</p></div>
+                </div>
+
+                <p class="response-note"><span>&hearts;</span> We aim to respond to all inquiries as soon as possible.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="home-footer">
+        <section class="footer-content">
+            <div class="footer-brand">
+                <h2>Lost &amp; Found <span>UAE</span></h2>
+                <p>Every item. Every person. Every time.</p>
+            </div>
+            <div class="footer-project">
+                <p>CSE 490 Web Programming Project</p>
+                <strong>Summer 2026</strong>
+            </div>
+            <div class="footer-developers">
+                <p>Developed by</p>
+                <strong>Syeda Namrah and Menahal</strong>
+            </div>
+        </section>
+    </footer>
+    <script src="js/contact.js"></script>
+</body>
+</html>

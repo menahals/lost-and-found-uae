@@ -1,0 +1,13 @@
+{
+  "name": "lost-and-found-management-system",
+  "version": "1.0.0",
+  "description": "CSE 490 Web Programming course project using HTML, CSS, JavaScript, AJAX, Node.js, Express and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}

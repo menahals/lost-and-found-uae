@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Items | Lost &amp; Found UAE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body class="home-page items-page">
+    <div class="uae-strip">Reuniting what matters across the UAE</div>
+    <header class="site-header home-header">
+        <section class="header-content brand-area">
+            <span class="brand-mark">LF</span>
+            <div>
+                <h1>Lost &amp; Found <span>UAE</span></h1>
+                <p>Every item. Every person. Every time.</p>
+            </div>
+        </section>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="report.html">Report Item</a>
+            <a class="active-link" href="items.html">View Items</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="about.html">About Developers</a>
+        </nav>
+        <a class="header-button" href="report.html">+ &nbsp; Report an Item</a>
+    </header>
+
+    <main>
+        <section class="page-heading items-heading">
+            <p class="page-label">SEARCH THE UAE COMMUNITY DATABASE</p>
+            <h2>View Lost &amp; Found <span>Items</span></h2>
+            <div class="heading-accent" aria-hidden="true">
+                <span class="line-green"></span>
+                <span class="line-red"></span>
+            </div>
+            <p>Search reported items, review their details, and help reunite them with their owners.</p>
+        </section>
+
+        <section class="search-toolbar">
+            <div class="card-heading">
+                <span class="circle-icon">&#128269;</span>
+                <div><h3>Search Items</h3><p>Use one or more fields to narrow the results.</p></div>
+            </div>
+
+            <div class="search-controls">
+                <div class="search-field keyword-field">
+                    <label for="searchText">Keyword</label>
+                    <input type="text" id="searchText" placeholder="Name, description or location">
+                </div>
+
+                <div class="search-field">
+                    <label for="searchCategory">Category</label>
+                    <select id="searchCategory">
+                        <option value="">All Categories</option>
+                    </select>
+                </div>
+
+                <div class="search-field">
+                    <label for="searchStatus">Status</label>
+                    <select id="searchStatus">
+                        <option value="">All Statuses</option>
+                        <option value="Lost">Lost</option>
+                        <option value="Found">Found</option>
+                    </select>
+                </div>
+
+                <div class="search-actions">
+                    <button type="button" id="searchButton">Search</button>
+                    <button type="button" id="showAllButton" class="plain-button">Show All</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section results-section">
+            <div class="results-heading">
+                <div><p class="results-label">COMMUNITY REPORTS</p><h3>Items in the Database</h3></div>
+                <p id="itemsMessage" class="result-message"></p>
+            </div>
+            <section id="itemsContainer" class="item-grid"></section>
+        </section>
+
+        <section id="editSection" class="form-card hidden-section items-edit-card">
+            <div class="card-heading">
+                <span class="circle-icon icon-red">&#9998;</span>
+                <div><h2>Edit Item</h2><p>Update the report details, then save your changes.</p></div>
+            </div>
+
+            <form id="editForm" novalidate>
+                <fieldset>
+                    <legend>Edit Item</legend>
+                    <input type="hidden" id="itemId">
+
+                    <label for="editItemName">Item Name</label>
+                    <input type="text" id="editItemName">
+
+                    <label for="editDescription">Description</label>
+                    <textarea id="editDescription" rows="4"></textarea>
+
+                    <label for="editCategory">Category</label>
+                    <select id="editCategory"></select>
+
+                    <label for="editLocation">Location</label>
+                    <input type="text" id="editLocation">
+
+                    <label for="editStatus">Status</label>
+                    <select id="editStatus">
+                        <option value="Lost">Lost</option>
+                        <option value="Found">Found</option>
+                    </select>
+
+                    <label for="editDate">Date</label>
+                    <input type="date" id="editDate">
+
+                    <label for="editContactName">Contact Name</label>
+                    <input type="text" id="editContactName">
+
+                    <label for="editContactEmail">Contact Email</label>
+                    <input type="email" id="editContactEmail">
+
+                    <label class="checkbox-label" for="editClaimed">
+                        <input type="checkbox" id="editClaimed"> Item has been claimed/returned
+                    </label>
+                </fieldset>
+
+                <div class="edit-actions">
+                    <button type="submit">Save Changes</button>
+                    <button type="button" id="cancelEditButton" class="plain-button">Cancel</button>
+                </div>
+                <p id="editResult" class="result-message"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="home-footer">
+        <section class="footer-content">
+            <div class="footer-brand">
+                <h2>Lost &amp; Found <span>UAE</span></h2>
+                <p>Every item. Every person. Every time.</p>
+            </div>
+            <div class="footer-project">
+                <p>CSE 490 Web Programming Project</p>
+                <strong>Summer 2026</strong>
+            </div>
+            <div class="footer-developers">
+                <p>Developed by</p>
+                <strong>Syeda Namrah and Menahal</strong>
+            </div>
+        </section>
+    </footer>
+    <script src="js/items.js"></script>
+</body>
+</html>
