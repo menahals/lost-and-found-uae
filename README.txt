@@ -127,9 +127,3 @@ USAGE
 5. Use the Contact Us page to send a message to the project team.
 
 6. Use the About Developers page to view information about the developers.
-
-
-
-
-
-
