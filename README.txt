@@ -1,11 +1,6 @@
 LOST & FOUND UAE - CSE 490 WEB PROGRAMMING PROJECT
 ===================================================
 
-GROUP MEMBERS
--------------
-1. Namrah
-2. Menahal Saghir
-
 PROJECT DESCRIPTION
 -------------------
 Lost & Found UAE is a full-stack web application designed to help users
