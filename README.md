@@ -130,4 +130,4 @@ https://lost-and-found-uae.onrender.com
 
 ---
 
-‼️ **Note:** This project is shared for career and portfolio purposes only. Reuse, copying, or submitting this work as your own, especially for academic credit, is not permitted and may violate academic integrity policies.
+‼️ **Note:** This project is shared for career and portfolio purposes only. Reusing, copying, or submitting this work as your own, especially for academic credit, is not permitted and may violate academic integrity policies.
